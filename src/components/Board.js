@@ -23,15 +23,15 @@ class Board extends React.Component {
         const boardRows = rowArray.map((row) => {
         return (
             <div key={row.toString()} className='board-row'>
-            {this.renderBoardRow(row)}
+                {this.renderBoardRow(row)}
             </div>
         );
         });
 
         return (
-        <div>
-            {boardRows}
-        </div>
+            <div>
+                {boardRows}
+            </div>
         );
     }
 }

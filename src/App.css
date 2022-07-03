@@ -41,6 +41,10 @@ ol, ul {
   flex-direction: row;
 }
 
+.game-board-button {
+  margin-block-start: 16px;
+}
+
 .game-info {
   margin-left: 20px;
 }
